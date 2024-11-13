@@ -1,5 +1,12 @@
-# MyProject6FP
-
-Descripción del Proyecto
-
-Esta aplicación web permite ver datos de anuncios de venta de coches en USA. Su objetivo es ayudar a los usuarios a analizar el mercado de vehículos usados, proporcionando gráficos interactivos sobre el kilometraje (odometer) y el precio (price) de los vehículos.
+$ tree
+.
+├── README.md
+├── app.py
+├── vehicles_us.csv
+├── requirements.txt
+└── notebooks
+    └── EDA.ipynb
+└── .streamlit
+    └── config.toml
+    
+https://<MyProject6FP1>.onrender.com/
