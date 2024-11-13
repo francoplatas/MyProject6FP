@@ -1,0 +1,56 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "car_data",
+        "kind": 5,
+        "importPath": "notebooks.project6",
+        "description": "notebooks.project6",
+        "peekOfCode": "car_data = pd.read_csv('vehicles_us.csv')\nbuild_histogram = st.checkbox('Construir un histograma')\nbuild_disp = st.checkbox('Construir gráfico de dispersión')\nif build_histogram: \n    st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')\n    fig = px.histogram(car_data, x=\"odometer\")\n    st.plotly_chart(fig, use_container_width=True)\nif build_disp: \n    st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')\n    fig = px.scatter(car_data, x=\"odometer\", y=\"price\")",
+        "detail": "notebooks.project6",
+        "documentation": {}
+    },
+    {
+        "label": "build_histogram",
+        "kind": 5,
+        "importPath": "notebooks.project6",
+        "description": "notebooks.project6",
+        "peekOfCode": "build_histogram = st.checkbox('Construir un histograma')\nbuild_disp = st.checkbox('Construir gráfico de dispersión')\nif build_histogram: \n    st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')\n    fig = px.histogram(car_data, x=\"odometer\")\n    st.plotly_chart(fig, use_container_width=True)\nif build_disp: \n    st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')\n    fig = px.scatter(car_data, x=\"odometer\", y=\"price\")\n    st.plotly_chart(fig, use_container_width=True)",
+        "detail": "notebooks.project6",
+        "documentation": {}
+    },
+    {
+        "label": "build_disp",
+        "kind": 5,
+        "importPath": "notebooks.project6",
+        "description": "notebooks.project6",
+        "peekOfCode": "build_disp = st.checkbox('Construir gráfico de dispersión')\nif build_histogram: \n    st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')\n    fig = px.histogram(car_data, x=\"odometer\")\n    st.plotly_chart(fig, use_container_width=True)\nif build_disp: \n    st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')\n    fig = px.scatter(car_data, x=\"odometer\", y=\"price\")\n    st.plotly_chart(fig, use_container_width=True)",
+        "detail": "notebooks.project6",
+        "documentation": {}
+    }
+]
